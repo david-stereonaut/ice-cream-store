@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'mobx-react';
+import { GeneralStore as generalStore } from './stores/GeneralStore';
+import { UserStore as userStore } from './stores/UserStore';
+
+const GeneralStore = new generalStore()
+const UserStore = new userStore()
+
+
+const stores = {
+  GeneralStore,
+  UserStore
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Provider {...stores}>
+      <App />
+    </Provider>,
   document.getElementById('root')
 );
 

@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Navbar } from './components/Navbar';
+import purple from '@material-ui/core/colors/purple';
+import green from '@material-ui/core/colors/green';
+import { MainContainer } from './components/MainContainer';
+
+// general theme
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: purple[500],
+    },
+    secondary: {
+      main: green[500],
+    },
+  },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 768,
+      lg: 1280,
+      xl: 1920,
+      phone: 0,
+      tablet: 600,
+      desktop: 768,
+
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <ThemeProvider theme={theme}>  
+      <div className="App">
+        <Navbar />
+        <MainContainer />
+      </div>
+    </ThemeProvider>
+    </Router>
   );
 }
 
