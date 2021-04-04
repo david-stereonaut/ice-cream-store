@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'mobx-react';
 import { GeneralStore as generalStore } from './stores/GeneralStore';
 import { UserStore as userStore } from './stores/UserStore';
-import { HashRouter } from 'react-router-dom';
 
 const GeneralStore = new generalStore()
 const UserStore = new userStore()
@@ -18,11 +17,9 @@ const stores = {
 }
 
 ReactDOM.render(
-  <HashRouter>
     <Provider {...stores}>
       <App />
-    </Provider>
-  </HashRouter>,
+    </Provider>,
   document.getElementById('root')
 );
 

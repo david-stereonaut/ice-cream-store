@@ -1,6 +1,6 @@
 import { createMuiTheme, ThemeProvider } from '@material-ui/core';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import purple from '@material-ui/core/colors/purple';
 import green from '@material-ui/core/colors/green';
