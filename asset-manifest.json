@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ice-cream-store/static/css/main.daccf6f4.chunk.css",
+    "main.css": "/ice-cream-store/static/css/main.45c0b7bf.chunk.css",
     "main.js": "/ice-cream-store/static/js/main.44e31ad0.chunk.js",
     "main.js.map": "/ice-cream-store/static/js/main.44e31ad0.chunk.js.map",
     "runtime-main.js": "/ice-cream-store/static/js/runtime-main.14f8f445.js",
@@ -10,13 +10,13 @@
     "static/js/3.b8e3b6f5.chunk.js": "/ice-cream-store/static/js/3.b8e3b6f5.chunk.js",
     "static/js/3.b8e3b6f5.chunk.js.map": "/ice-cream-store/static/js/3.b8e3b6f5.chunk.js.map",
     "index.html": "/ice-cream-store/index.html",
-    "static/css/main.daccf6f4.chunk.css.map": "/ice-cream-store/static/css/main.daccf6f4.chunk.css.map",
+    "static/css/main.45c0b7bf.chunk.css.map": "/ice-cream-store/static/css/main.45c0b7bf.chunk.css.map",
     "static/js/2.9ebe3626.chunk.js.LICENSE.txt": "/ice-cream-store/static/js/2.9ebe3626.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14f8f445.js",
     "static/js/2.9ebe3626.chunk.js",
-    "static/css/main.daccf6f4.chunk.css",
+    "static/css/main.45c0b7bf.chunk.css",
     "static/js/main.44e31ad0.chunk.js"
   ]
 }
