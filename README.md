@@ -1,6 +1,7 @@
 # React Ice Cream Store
 
 An Ice Cream E-Commerce Frontend done with React and Material UI.
+Responsive Design for desktop and mobile.
 
 ## Main Components
 
