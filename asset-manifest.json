@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ice-cream-store/static/css/main.daccf6f4.chunk.css",
-    "main.js": "/ice-cream-store/static/js/main.2a901ca3.chunk.js",
-    "main.js.map": "/ice-cream-store/static/js/main.2a901ca3.chunk.js.map",
+    "main.js": "/ice-cream-store/static/js/main.b7571e40.chunk.js",
+    "main.js.map": "/ice-cream-store/static/js/main.b7571e40.chunk.js.map",
     "runtime-main.js": "/ice-cream-store/static/js/runtime-main.14f8f445.js",
     "runtime-main.js.map": "/ice-cream-store/static/js/runtime-main.14f8f445.js.map",
-    "static/js/2.33b8992e.chunk.js": "/ice-cream-store/static/js/2.33b8992e.chunk.js",
-    "static/js/2.33b8992e.chunk.js.map": "/ice-cream-store/static/js/2.33b8992e.chunk.js.map",
+    "static/js/2.feda2599.chunk.js": "/ice-cream-store/static/js/2.feda2599.chunk.js",
+    "static/js/2.feda2599.chunk.js.map": "/ice-cream-store/static/js/2.feda2599.chunk.js.map",
     "static/js/3.b8e3b6f5.chunk.js": "/ice-cream-store/static/js/3.b8e3b6f5.chunk.js",
     "static/js/3.b8e3b6f5.chunk.js.map": "/ice-cream-store/static/js/3.b8e3b6f5.chunk.js.map",
     "index.html": "/ice-cream-store/index.html",
     "static/css/main.daccf6f4.chunk.css.map": "/ice-cream-store/static/css/main.daccf6f4.chunk.css.map",
-    "static/js/2.33b8992e.chunk.js.LICENSE.txt": "/ice-cream-store/static/js/2.33b8992e.chunk.js.LICENSE.txt"
+    "static/js/2.feda2599.chunk.js.LICENSE.txt": "/ice-cream-store/static/js/2.feda2599.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14f8f445.js",
-    "static/js/2.33b8992e.chunk.js",
+    "static/js/2.feda2599.chunk.js",
     "static/css/main.daccf6f4.chunk.css",
-    "static/js/main.2a901ca3.chunk.js"
+    "static/js/main.b7571e40.chunk.js"
   ]
 }
